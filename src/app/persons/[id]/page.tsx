@@ -1,3 +1,3 @@
-import FormPage from '../new/page'
+import Form from '../create/page'
 
-export default FormPage
+export default Form

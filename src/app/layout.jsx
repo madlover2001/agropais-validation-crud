@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <Navbar/>
-      <h1 className="text-5xl pl-4 flex justify-center text-green-800 pt-4 mt-4">PLATAFORMA DE REGISTRO</h1>
+      <h1 className="text-5xl pl-4 flex justify-center text-green-800 pt-4 mt-2 font-bold">PLATAFORMA DE REGISTRO</h1>
        <main className="container mx-auto px-5 mt-4">
        {children}
        </main>

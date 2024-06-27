@@ -29,7 +29,7 @@ const PersonSchema = new Schema({
             `La fecha de nacimiento debe indicar que la persona es mayor de 18 años`,
         },
       },
-      hasRuc: { type: Boolean, required: true },
+      hasRuc: { type: Boolean },
       rucNumber: {
         type: String,
         validate: {
@@ -41,7 +41,7 @@ const PersonSchema = new Schema({
         },
       },
       gender: { type: String, required: true },
-      hasFarm: { type: Boolean, required: true },
+      hasFarm: { type: Boolean },
       farmHa: {
         type: Number,
         validate: {
@@ -85,7 +85,7 @@ const PersonSchema = new Schema({
           },
         },
       ],
-      hasWorkers: { type: Boolean, required: true },
+      hasWorkers: { type: Boolean },
       totalWorkers: {
         type: Number,
         validate: {
@@ -166,7 +166,7 @@ const PersonSchema = new Schema({
             `La ocupación de los trabajadores menores de edad es obligatoria`,
         },
       },
-      hasPregnantWorkers: { type: Boolean, required: true },
+      hasPregnantWorkers: { type: Boolean },
       pregnantWorkers: {
         type: Number,
         validate: {
